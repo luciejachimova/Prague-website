@@ -1,0 +1,95 @@
+:root {
+  --bprimary-color: #214731;
+  --secondary-color: linear-gradient(
+    180deg,
+    rgba(242, 230, 230, 1) 0%,
+    rgba(242, 236, 235, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  --heading-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 66px;
+  line-height: 1.5;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--third-color);
+}
+nav img {
+  width: 30px;
+  height: 100;
+}
+.main_h1 {
+  line-height: 1;
+}
+
+.food {
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.best_food {
+  margin-top: 60px;
+}
+
+.best_item {
+  width: 30%;
+  padding-bottom: 20%;
+}
+
+.best_content {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.best_icon {
+  margin-top: 8px;
+}
+.about h1 {
+  text-align: center;
+}
+
+.about h3{
+  
+}
