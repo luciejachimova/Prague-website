@@ -60,8 +60,18 @@ nav img {
   width: 30px;
   height: 100;
 }
+img {
+  border-radius: 10px;
+}
+a {
+  transition: all 75ms ease-in-out;
+}
+
 .content-container {
   padding: 60px 20px;
+}
+.places_h1 {
+  margin-top: 50px;
 }
 
 footer a {

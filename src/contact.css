@@ -60,30 +60,15 @@ nav img {
   width: 30px;
   height: 100;
 }
-img {
-  border-radius: 10px;
-}
-.about h1 {
-  text-align: center;
-  margin-top: 50px;
-}
 .content-container {
   padding: 60px 20px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.contact_h1 {
+  margin-top: 50px;
 }
 
-.btn-branding-outline {
-  color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 10px 15px;
-}
-.btn-branding-outline:hover,
-.btn-branding:hover {
-  color: black;
-  background: white;
-}
 footer a {
   text-decoration: none;
   transition: all 150ms ease-in-out;

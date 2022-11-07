@@ -68,6 +68,9 @@ nav img {
   padding: 50px 10px;
 }
 
+.food_h1 {
+  margin-top: 50px;
+}
 footer a {
   text-decoration: none;
   transition: all 150ms ease-in-out;
