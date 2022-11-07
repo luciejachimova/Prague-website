@@ -60,34 +60,6 @@ nav img {
   width: 30px;
   height: 100;
 }
-.main_h1 {
-  line-height: 1;
-}
-
-
-
-.best_food {
-  margin-top: 60px;
-}
-
-.best_item {
-  width: 30%;
-  padding-bottom: 20%;
-}
-
-.best_content {
-  position: absolute;
-  width: 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.best_icon {
-  margin-top: 8px;
-}
-
 .content-container {
   padding: 60px 20px;
 }
