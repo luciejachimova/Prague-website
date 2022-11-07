@@ -30,6 +30,10 @@ h1 {
   line-height: 1.5;
 }
 
+p {
+  font-size: 14px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -90,6 +94,30 @@ nav img {
   text-align: center;
 }
 
-.about h3{
-  
+.content-container {
+  padding: 60px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    padding: 0;
+  }
 }
