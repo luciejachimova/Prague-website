@@ -60,6 +60,22 @@ nav img {
   width: 30px;
   height: 100;
 }
+img {
+  border-radius: 10px;
+}
+.img_text {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 2em 1.25em 1.25em;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid rgba(21, 23, 26, 0.85);
+  background: rgba(21, 23, 26, 0.85);
+  transition: color 0.3s, background-color 0.3s;
+}
 .content-container {
   padding: 60px 20px;
 }

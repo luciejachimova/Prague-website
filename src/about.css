@@ -75,14 +75,14 @@ img {
   color: black;
   border: 1px solid black;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
   padding: 10px 15px;
 }
 .btn-branding-outline:hover,
 .btn-branding:hover {
   color: black;
-  background: white;
+  background: wheat;
 }
 footer a {
   text-decoration: none;
