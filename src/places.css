@@ -63,6 +63,10 @@ nav img {
 img {
   border-radius: 10px;
 }
+img:hover {
+  transform: scale(1.2);
+}
+
 a {
   transition: all 75ms ease-in-out;
 }
