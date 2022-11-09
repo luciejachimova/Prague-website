@@ -64,8 +64,6 @@ nav img {
   line-height: 1;
 }
 
-
-
 .best_food {
   margin-top: 60px;
 }
@@ -90,6 +88,18 @@ nav img {
 
 .content-container {
   padding: 60px 20px;
+}
+.footer-logo {
+  display: block;
+  margin-left: 9px;
+}
+.carousel-item {
+  height: 70vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 footer a {

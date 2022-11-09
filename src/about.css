@@ -84,6 +84,12 @@ img {
   color: black;
   background: wheat;
 }
+
+.footer-logo {
+  display: block;
+  margin-left: 9px;
+}
+
 footer a {
   text-decoration: none;
   transition: all 150ms ease-in-out;
