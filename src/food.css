@@ -1,11 +1,8 @@
 :root {
-  --bprimary-color: #214731;
-  --secondary-color: linear-gradient(
-    180deg,
-    rgba(242, 230, 230, 1) 0%,
-    rgba(242, 236, 235, 1) 69%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  --primary-color: #c0b283;
+  --secondary-color: #a09388;
+  --background-color: #f4f4f4;
+  --footer-color: #373737;
   --heading-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
     serif;
   --default-font-family: "Poppins", sans-serif;
@@ -13,6 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--background-color);
 }
 
 h1,
@@ -21,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -86,9 +84,22 @@ a {
   margin-left: 9px;
 }
 
+footer p {
+  color: var(--primary-color);
+}
 footer a {
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 120ms ease-in-out;
+  color: var(--footer-color);
+}
+footer a:hover {
+  color: var(--secondary-color);
+}
+.copyright {
+  color: var(--secondary-color);
+}
+.copyright a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {

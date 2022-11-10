@@ -1,6 +1,6 @@
 :root {
   --primary-color: #c0b283;
-  --secondary-color: #dcd0c0;
+  --secondary-color: #a09388;
   --background-color: #f4f4f4;
   --footer-color: #373737;
   --heading-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
@@ -103,14 +103,22 @@ nav img {
   background-size: cover;
 }
 footer p {
-  color: var(--footer-color);
+  color: var(--primary-color);
 }
 footer a {
   text-decoration: none;
   transition: all 120ms ease-in-out;
   color: var(--footer-color);
 }
-
+footer a:hover {
+  color: var(--secondary-color);
+}
+.copyright {
+  color: var(--secondary-color);
+}
+.copyright a:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;

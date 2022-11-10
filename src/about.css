@@ -1,6 +1,6 @@
 :root {
   --primary-color: #c0b283;
-  --secondary-color: #dcd0c0;
+  --secondary-color: #a09388;
   --background-color: #f4f4f4;
   --footer-color: #373737;
   --heading-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
@@ -23,7 +23,6 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-
 h1 {
   font-size: 66px;
   line-height: 1.5;
@@ -74,8 +73,8 @@ nav img {
 }
 
 .btn-branding-outline {
-  color: black;
-  border: 1px solid black;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
   font-size: 15px;
   line-height: 27px;
@@ -83,8 +82,8 @@ nav img {
 }
 .btn-branding-outline:hover,
 .btn-branding:hover {
-  color: black;
-  background: wheat;
+  color: var(--footer-color);
+  background: var(--secondary-color);
 }
 
 .footer-logo {
@@ -92,12 +91,22 @@ nav img {
   margin-left: 9px;
 }
 
+footer p {
+  color: var(--primary-color);
+}
 footer a {
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 120ms ease-in-out;
+  color: var(--footer-color);
 }
-footer h6 {
-  color: var(--primary-color);
+footer a:hover {
+  color: var(--secondary-color);
+}
+.copyright {
+  color: var(--secondary-color);
+}
+.copyright a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
