@@ -61,6 +61,17 @@ nav img {
 i {
   color: var(--secondary-color);
 }
+.footer-tools ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-tools li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 150px;
+}
 .main_h1 {
   line-height: 1;
   margin-top: 10px;
@@ -104,6 +115,9 @@ i {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.footer-tools {
+  position: relative;
 }
 footer p {
   color: var(--primary-color);
