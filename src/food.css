@@ -26,6 +26,7 @@ h6 {
 h1 {
   font-size: 66px;
   line-height: 1.5;
+  color: var(--primary-color);
 }
 
 p {
@@ -58,13 +59,15 @@ nav img {
   width: 40px;
   height: 100;
 }
-
-img {
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px var(--footer-color);
-}
 a {
   text-decoration: none;
+}
+i {
+  color: var(--secondary-color);
+}
+.restaurant_img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--footer-color);
 }
 .restaurant:hover {
   transform: scale(1.2);
@@ -74,10 +77,6 @@ a {
 }
 .food {
   text-align: center;
-  padding: 50px 10px;
-}
-.food_h1 {
-  margin-top: 50px;
 }
 
 .footer-logo {

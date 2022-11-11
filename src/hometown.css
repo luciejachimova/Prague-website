@@ -58,6 +58,9 @@ nav img {
   width: 40px;
   height: 100;
 }
+i {
+  color: var(--secondary-color);
+}
 .main_h1 {
   line-height: 1;
   margin-top: 10px;

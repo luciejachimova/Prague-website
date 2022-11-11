@@ -1,11 +1,8 @@
 :root {
-  --bprimary-color: #214731;
-  --secondary-color: linear-gradient(
-    180deg,
-    rgba(242, 230, 230, 1) 0%,
-    rgba(242, 236, 235, 1) 69%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  --primary-color: #c0b283;
+  --secondary-color: #a09388;
+  --background-color: #f4f4f4;
+  --footer-color: #373737;
   --heading-font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
     serif;
   --default-font-family: "Poppins", sans-serif;
@@ -13,6 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--background-color);
 }
 
 h1,
@@ -21,13 +19,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1 {
   font-size: 66px;
   line-height: 1.5;
+  color: var(--primary-color);
+  margin-top: 20px;
 }
 
 p {
@@ -49,16 +49,25 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--secondary-color);
   transition: all 150ms ease-in-out;
 }
 nav a:hover,
 nav li.active a {
-  color: var(--third-color);
+  color: var(--footer-color);
 }
 nav img {
   width: 40px;
   height: 100;
+}
+
+a {
+  transition: all 75ms ease-in-out;
+  text-decoration: none;
+  color: var(--footer-color);
+}
+a:hover {
+  color: var(--secondary-color);
 }
 .content-container {
   padding: 60px 20px;

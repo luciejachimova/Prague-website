@@ -60,7 +60,9 @@ nav img {
   width: 40px;
   height: 100;
 }
-
+i {
+  color: var(--secondary-color);
+}
 .about_img {
   border-radius: 10px;
   box-shadow: 5px 5px 10px var(--footer-color);
