@@ -26,10 +26,17 @@ function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let descriptionElement = document.querySelector("#description");
   let dateElement = document.querySelector("#date");
+  let iconElement = document.querySelector("#icon");
+
   temperatureElement.innerHTML = Math.round(response.data.temperature.current);
   descriptionElement.innerHTML = response.data.condition.description;
   dateElement.innerHTML = formatDate(response.data.time * 1000);
+  iconElement.setAttribute(
+    "src",
+    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`
+  );
 }
+iconElement.setAttribute("alt", response.data.condition.icon);
 
 let key = "d83e59f40803736064f3b4aao5f3d8t5";
 let query = "Prague";
