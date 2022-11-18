@@ -27,6 +27,7 @@ h1 {
   font-size: 66px;
   line-height: 1.5;
   color: var(--primary-color);
+  margin-top: 20px;
 }
 
 p {
@@ -121,5 +122,9 @@ footer a:hover {
     margin-right: -2px;
     margin-bottom: -2px;
     margin-left: -2px;
+  }
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
   }
 }

@@ -130,4 +130,8 @@ footer a:hover {
   .content {
     padding: 0;
   }
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
+  }
 }

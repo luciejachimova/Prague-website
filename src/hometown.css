@@ -74,17 +74,6 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-.footer-tools ul {
-  padding: 0;
-  margin: 0;
-}
-
-.footer-tools li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 150px;
-}
 .main_h1 {
   line-height: 1;
   margin-top: 10px;
@@ -117,10 +106,6 @@ li::first-letter {
 .content-container {
   padding: 60px 20px;
 }
-.footer-logo {
-  display: block;
-  margin-left: 9px;
-}
 .carousel-item {
   height: 70vh;
   background: no-repeat center center scroll;
@@ -128,9 +113,6 @@ li::first-letter {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.footer-tools {
-  position: relative;
 }
 footer p {
   color: var(--primary-color);
@@ -143,6 +125,45 @@ footer a {
 footer a:hover {
   color: var(--secondary-color);
 }
+.footer-logo {
+  display: block;
+  margin-left: 9px;
+}
+
+.tools img {
+  height: 84px;
+  width: 84px;
+}
+.tools strong {
+  font-family: var(--heading-font-family);
+  font-size: 44px;
+  line-height: 1;
+}
+#date {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  line-height: 74px;
+}
+.units {
+  font-family: var(--heading-font-family);
+  position: relative;
+  font-size: 16px;
+  top: -24px;
+}
+.tools {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.tools .active {
+  color: var(--secondary-color);
+}
+#fahrenheitLink {
+  color: var(--secondary-color);
+}
+.units a:hover {
+  color: var(--secondary-color);
+}
+
 .copyright {
   color: var(--secondary-color);
 }
@@ -171,5 +192,10 @@ footer a:hover {
   }
   .home__text a {
     font-size: 1.75rem;
+  }
+
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
   }
 }

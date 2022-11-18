@@ -130,46 +130,26 @@
 
     <footer>
       <div class="container p-3">
-        <div class="d-flex justify-content-between">
-          <div class="footer-tools">
-            <div class="row">
-              <div class="clearfix weather-temperature">
-                <div class="row">
-                  <div class="col-1">
-                    <img src="" alt="Clear" id="icon" class="float-left" />
-                  </div>
-                  <div class="col-2">
-                    <div id="description"></div>
-                  </div>
-                  <div class="col-3">
-                    <span class="float-left">
-                      <strong id="temperature"></strong>
-
-                      <span class="units">
-                        <a href="#" id="celsius-link" class="active">°C </a> |
-                        <a href="#" id="fahrenheit-link">°F</a></span
-                      >
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <ul>
-                  <li>min: <span id="humidity"></span>%</li>
-                  <li>Wind: <span id="wind"></span>km/h</li>
-                </ul>
-              </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-6 mb-md-0 mt-3">
+            <div class="tools text-sm-center">
+              <span id="date"></span>
             </div>
-            <ul>
-              <li><span id="date"></span></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+          </div>
+          <div class="col-md-6 col-lg-6 mb-md-0 mt-3">
+            <div class="tools text-sm-center">
+              <img src="" alt="Clear" id="icon" class="" />
+              <span class="float-left">
+                <strong id="temperature"></strong>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active"> °C </a>
+                  | <a href="#" id="fahrenheit-link"> °F</a></span
+                >
+              </span>
+            </div>
           </div>
         </div>
+<hr/>
         <section>
           <div class="container text-center text-md-start mt-5">
             <div class="row">
